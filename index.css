@@ -1,0 +1,19 @@
+/*Universal Styles*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Navbar styles*/
+
+
+
+/*Lead follow-up assistan section styles*/
+
+
+.img-fluid{
+    height: 100vh;
+    width: 100vw;
+}
+
