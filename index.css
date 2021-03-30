@@ -11,11 +11,15 @@
 
 /*Lead follow-up assistan section styles*/
 
-
-.img-fluid{
-    height: 100vh;
+section img.img-fluid{
+    height: 100vh !important;
     width: 100vw;
+    background-position: cover;
+    background-attachment: center;
+    
 }
+
+
 
 /*Footer styles*/
 .jumbotron{
@@ -60,4 +64,5 @@ h5.copy-right{
     bottom: 10px;
     font-weight: normal;
 }
+
 
