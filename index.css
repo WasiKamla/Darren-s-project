@@ -11,12 +11,13 @@
 
 /*Lead follow-up assistan section styles*/
 
-section img.img-fluid{
-    height: 100vh !important;
+.main-section{
+    position: relative;
+    height: 700px;
     width: 100vw;
-    background-position: cover;
-    background-attachment: center;
-    
+    background: url("./assets/main-body-img.jpeg") no-repeat center;
+    background-size: cover;
+    background-position: center;
 }
 
 
