@@ -1,7 +1,6 @@
-@import url("https://fons.com/n/css/app.css");
-@import url("https://fons.com/n/css/tachyons.css");
-/*Universal Styles*/
 
+
+/*Universal Styles*/
 *{
     padding: 0;
     margin: 0;
@@ -10,27 +9,12 @@
 body{
     width: 100%;
 }
+
+
 /*Navbar styles*/
 
-button.my-btn{
-    background-color: #17a2b8;
-   color: #fff;
-}
-button.btn:hover{
-    background-color: #1c8b9c;
-}
-button.my-btn-outline{
-    background-color: white;
-    color: black;
-    border: .1px solid black;
-}
-button.my-btn-outline:hover{
-    background-color: #b3b3b3;
-    color: rgb(255, 255, 255);
-    border: none;
-    border: .1px solid rgb(255, 255, 255);
-    box-shadow: none;
-}
+
+
 
 
 /*Lead follow-up assistant section styles*/
@@ -43,7 +27,10 @@ button.my-btn-outline:hover{
     background-size: cover;
     background-position: center;
 }
+
+
 /*Form styles*/
+
 .main-form-container{
     height: 300px;
 
@@ -83,8 +70,9 @@ form{
 } 
 
 
-
 /*Footer styles*/
+
+
 .jumbotron-fluid{
     background-color: #0f74cc;
     margin: 0;
@@ -115,41 +103,10 @@ a.terms{
     color: #ffff;
     font-weight: normal;
 }
-/* .terms-and-conditions{
-    position: absolute;
-    right: 20px;
-    bottom: 10px;
-    
-}
-a.terms{
-    color: #ffff;
-    font-weight: normal;
-}
-span.hyphen{
-    font-size: 400;
-    font-weight: bold;
-    color: #ffff;
-    padding: 10px 10px;
-    margin-top: -10px;
-}
-h5.copy-right{
-    color: #ffff;
-    position: absolute;
-    left: 30px;
-    bottom: 10px;
-    font-weight: normal;
-} */
 
 
-:root {
-    --msg-content-height: 26.75em;
-    --msg-spacing: 1em;
-    --msg1-height: 5.5em;
-    --msg2-height: 4em;
-    --msg3-height: 2.5em;
-    --msg4-height: 2.5em;
-    --msg5-height: 4em;
-  }
+
+
   
   :root {
     --msg-content-height: 26.75em;
@@ -170,7 +127,7 @@ h5.copy-right{
     background-color: #ffffff;
     padding: 7px;
     border-radius: 10px;
-    
+    max-width: 370px;
   }
   
   .msg-receive {
@@ -180,6 +137,9 @@ h5.copy-right{
     background-color: #2d67ff;
     color: #ffffff;
     animation-fill-mode: forwards;
+    padding: 7px;
+    border-radius: 10px;
+    max-width: 370px;
   }
   
   .msg-container {
